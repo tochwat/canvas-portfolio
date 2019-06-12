@@ -22,7 +22,7 @@ $postid = isset( $_POST['portid'] ) ? $_POST['portid'] : '';
     <!-- Portfolio Single Image
     ============================================= -->
     <div class="col_three_fifth portfolio-single-image nobottommargin">
-        <a href="#"><img src="images/a-portfolio/full-images/full.jpg" alt=""></a>
+        <img src="images/a-portfolio/full-images/full.jpg" alt="">
     </div><!-- .portfolio-single-image end -->
 
     <!-- Portfolio Single Content
@@ -32,6 +32,13 @@ $postid = isset( $_POST['portid'] ) ? $_POST['portid'] : '';
         <!-- Portfolio Single - Description
         ============================================= -->
         <p>A web app that lets you browse nearby craft breweries. This mobile-responsive app utilized multiple APIs including google maps geolocation, a brewery database and the Lyft API.</p>
+        <a class="button" target=”_blank” href="https://studybuddies-uw2018.github.io/HopOn/index.html">
+            <span><i class="icon-line-link" id="project-link-icon"></i>View project</span>
+        </a>
+        <br>
+        <a class="button" target=”_blank” href="https://github.com/StudyBuddies-UW2018/HopOn">
+            <span><i class="icon-github-circled"></i>View on GitHub</span>
+        </a>
         <!-- Portfolio Single - Description End -->
 
         <div class="line" style="margin: 40px 0;"></div>
